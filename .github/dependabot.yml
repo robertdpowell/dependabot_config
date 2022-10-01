@@ -3,8 +3,8 @@ updates:
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      time: "09:32"
-      timezone: "GMT"
+      - time: "09:32"
+        timezone: "GMT"
    
     ignore:
       - dependency-name: "lodash"
