@@ -2,8 +2,9 @@ version: 2
 updates:
   - package-ecosystem: "npm"
     directory: "/"
-    schedule.time: "09:29"
-    schedule.timezone: "GMT"
+    schedule:
+      time: "09:32"
+      timezone: "GMT"
    
     ignore:
       - dependency-name: "lodash"
